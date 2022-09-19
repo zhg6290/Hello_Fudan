@@ -99,7 +99,7 @@ class Fudan:
 
         print("return status code", post.status_code)
 
-        if post.status_code == 302:
+        if post.status_code == 200:
             print("\n***********************"
                   "\n◉登录成功"
                   "\n***********************\n")
